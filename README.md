@@ -1,9 +1,9 @@
-# yazilim-mimarisi-ve-tasarim
+# yazilim-mimarisi-ve-tasarimi
 Yazılım Mimarisi ve Tasarımı Ödevi
 ## Bridge Tasarım Deseni
 Bridge tasarım deseni implementasyonları abstractlardan ayırabilmek için kullanılır.
 
-![Image of Class](https://github.com/dogukankayhan/yazilim-mimarisi-ve-tasarim/blob/master/bridge.png)
+![Image of Class](https://github.com/dogukankayhan/yazilim-mimarisi-ve-tasarimi/blob/master/bridge.png)
 
 mplementationA , ImplementationB : Esas fonksiyonaliteyi içerisinde barındıran classlar.
 
@@ -128,7 +128,7 @@ Bir fonksiyonun birden fazla yapılış şekli olduğu takdirde, bu fonksiyonell
 
 Birden fazla concrete strategy classımız olduğunda bunları bir strategy class üzerinden clienta sunmak, strategy classına da bu concrete tiplere ait ortak ata olan interfaceyi vermek , ilerleyen zamanlarda bu concrete tiplere bir yenisi daha eklendiğinde , işimizi kolaylaştıracak, bu durumda tek yapmamız gereken bu concrete tipi ortak interfaceden türetmek yeterli olacaktır. Strategy tasarım kalıbının da yaptığı tam olarak budur.
 
-![Image of Class](https://github.com/dogukankayhan/yazilim-mimarisi-ve-tasarim/blob/master/strategy.png)
+![Image of Class](https://github.com/dogukankayhan/yazilim-mimarisi-ve-tasarimi/blob/master/strategy.png)
 
 Aşağıda biri XmlSerialize yapmak diğeri ise BinarySerilalize yapmak üzere iki adet concrete tipimiz var ve bunların ikisi de ISerializeable interfacesinden türetilmiştir.
 
